@@ -134,6 +134,7 @@ body {
     position: absolute;
     top:85%;
     left:40%;
+    display: none;
 }
 
 #restart

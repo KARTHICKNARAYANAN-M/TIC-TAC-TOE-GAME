@@ -30,29 +30,29 @@
          <div id="players">
 
             <p id="Xturn">X's Turn</p>
-            <p id="Yturn">Y's Turn</p>
+            <p id="Yturn">O's Turn</p>
 
          </div>
 
          <div id="playbox">
             <div id="box1">
-                 <div class="box"  id="0" onclick="boxclick()"></div>
-                 <div class="box"  id="1" onclick="boxclick()"></div>
-                 <div class="box"  id="2" onclick="boxclick()"></div>
+                 <div class="box"  id="0" onclick="boxClick(id)"></div>
+                 <div class="box"  id="1" onclick="boxClick(id)"></div>
+                 <div class="box"  id="2" onclick="boxClick(id)"></div>
 
             </div>
 
             <div id="box2">
-                <div class="box" id="3" onclick="boxclick()"></div>
-                <div class="box" id="4" onclick="boxclick()"></div>
-                <div class="box" id="5" onclick="boxclick()"></div>
+                <div class="box" id="3" onclick="boxClick(id)"></div>
+                <div class="box" id="4" onclick="boxClick(id)"></div>
+                <div class="box" id="5" onclick="boxClick(id)"></div>
 
            </div>
 
            <div id="box3">
-            <div class="box" id="6" onclick="boxclick()"></div>
-            <div class="box" id="7" onclick="boxclick()"></div>
-            <div class="box" id="8" onclick="boxclick()"></div>
+            <div class="box" id="6" onclick="boxClick(id)"></div>
+            <div class="box" id="7" onclick="boxClick(id)"></div>
+            <div class="box" id="8" onclick="boxClick(id)"></div>
 
            </div>
 
@@ -68,17 +68,27 @@
 
     <div id="result">
 
-         <div id="players won">
+         <div id="playerswon">
+
+            <p id="show">
+            
+                
+            </p>
              
          </div>
 
-         <button id="restart" onclick="newgame()">
-             REPLAY
        
+         <button id="replay" onclick="newgame()">
+              REPLAY
          </button>
-         
 
     </div>
+
+    
+
+
+    <script src="script.js"></script>
+
 
 </body>
 

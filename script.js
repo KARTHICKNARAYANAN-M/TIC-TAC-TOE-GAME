@@ -2,6 +2,8 @@ let boxes=document.getElementsByClassName('box');
 var res=document.getElementById('result');
 var score=res.children[0];
 var show=score.children[0];
+var yturn=document.getElementById("Yturn");
+var xturn=document.getElementById("Xturn");
 const otext="O";
 const xtext="X";
 let currentplayer=xtext;
@@ -22,8 +24,12 @@ function boxClick(id)
 
     //const id=.id;
     var x=document.getElementById(id);
-    var yturn=document.getElementById("Yturn");
-    var xturn=document.getElementById("Xturn");
+    if(spaces[id])
+    {
+        alert("THIS PAGE IS ALREADY FILLED");
+        audio3.play;
+        return;
+    }
    
 
     if(currentplayer=='X')
@@ -99,11 +105,7 @@ function boxClick(id)
      
         currentplayer=currentplayer==xtext?otext:xtext;
     }
-    else
-    {
-        audio3.play();
-         alert("This box is already filled");
-    }
+    
 
     
     
@@ -153,6 +155,11 @@ function newgame()
    audio1.currentTime=0;
 
     currentplayer=xtext;
+
+    xturn.style.backgroundColor="#56baed";
+    xturn.style.color="#FFF";
+    yturn.style.backgroundColor="#FFF";
+    yturn.style.color="#56baed";
 
 }
 

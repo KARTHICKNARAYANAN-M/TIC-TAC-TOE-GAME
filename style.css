@@ -20,7 +20,7 @@ body {
 .head {
   position: absolute;
   top:5%;
-  left:25%;
+  left:30%;
   -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
   font-size: 40px;
 }
@@ -47,7 +47,7 @@ body {
 {
     position:absolute;
     top:18%;
-    left:25%;
+    left:30%;
     width:520px;
     height:420px;
     border: 3px solid #fff;
@@ -142,7 +142,7 @@ body {
 {
     position: absolute;
     top:77%;
-    left:25%;
+    left:30%;
     height: 140px;
     width:540px;
     padding:5px;
@@ -235,8 +235,44 @@ body {
 
 
 
+#marq
+{
+    position:absolute;
+    top:25%;
+    left:5%;
+  
+    width:250px;
+    height:300px;
+    color: aqua;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid white;
+    box-shadow: #56baed 10px 10px 10px 4px ;
+}
 
+#marq p
+{
+    margin-bottom:20px;
+    margin-top:10px;
+    
 
+}
+#marq1
+{
+    position:absolute;
+    top:25%;
+    left:70%;
+    height:320px;
+    width:300px;
+    padding:10px;
+}
+
+#marq img
+{
+    height:60px;
+    width:80px;
+    margin: 15px;
+}
 
 
 

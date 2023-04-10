@@ -17,7 +17,11 @@ const audio3=new Audio("buzzer.mp3");
 function boxClick(id)
 {
     if(k==1)
-      alert("MATCH ENDED")
+    {
+      audio3.play();
+      alert("MATCH ENDED");
+      return
+   }
     
     audio.playbackRate=1;
     audio.play();
@@ -26,8 +30,8 @@ function boxClick(id)
     var x=document.getElementById(id);
     if(spaces[id])
     {
-        alert("THIS PAGE IS ALREADY FILLED");
-        audio3.play;
+        audio3.play();
+        alert("THIS BOX IS ALREADY FILLED");
         return;
     }
    

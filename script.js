@@ -153,7 +153,8 @@ function newgame()
     {
         boxes[i].innerHTML="";
         boxes[i].style.backgroundColor="#FFF";
-        boxes[i].style.transform="scale(1)";
+        boxes[i].style.transform="scale(1)"
+        boxes[i].style.hover="transform:scale(1)";
     }
    audio1.pause();
    audio1.currentTime=0;

@@ -63,7 +63,6 @@ function boxClick(id)
         x.style.backgroundColor="#56baed";
         x.style.color="#fff";
         let trans=playerWon();
-        console.log(trans);
 
 
         if(playerWon()!=false)

@@ -10,9 +10,9 @@ let currentplayer=xtext;
 let spaces=Array(9).fill(null);
 var c=0,k=0;
 const audio=new Audio("./blob/main/Images&Audio/touchaudio.mpeg");
-const audio1=new Audio("./Images&Audio/winning.mp3");
-const audio2=new Audio("./Images&Audio/drawn audio.wav");
-const audio3=new Audio("./Images&Audio/buzzer.mp3");
+const audio1=new Audio("./blob/main/Images&Audio/winning.mp3");
+const audio2=new Audio("./blob/main/Images&Audio/drawn audio.wav");
+const audio3=new Audio("./blob/main/Images&Audio/buzzer.mp3");
 
 function boxClick(id)
 {
@@ -84,8 +84,8 @@ function boxClick(id)
             show.innerHTML=
             `
               CONGRATULATIONS! ${currentplayer}  WON THE GAME 
-              <img src="./Images&Audio/download.png">
-              <img src="./Images&Audio/download.png">
+              <img src="./blob/main/Images&Audio/download.png">
+              <img src="./blob/main/Images&Audio/download.png">
             
             `
             
@@ -101,7 +101,7 @@ function boxClick(id)
             show.innerHTML=
             `
                OH  ! MATCH HAS DRAWN
-              <img src="./Images&Audio/handshake.png">
+              <img src="./blob/main/Images&Audio/handshake.png">
             
             `
         }

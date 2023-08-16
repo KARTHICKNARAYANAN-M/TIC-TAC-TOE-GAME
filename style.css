@@ -43,23 +43,23 @@ body {
   }
 }
 
+
 #playboardarea
 {
     position:absolute;
     top:18%;
-    left:30%;
-    width:520px;
-    height:420px;
-    border: 3px solid #fff;
-    padding:20px;
-    box-shadow: gray 5px 10px 15px 2px;
+    left:35%;
+    width:350px;
+    height:380px;
+    border: 1px solid #fff;
+    padding:10px;
 
 }
 
 
 #players
 {
-    width:480px;
+    width:400px;
     height:80px;
     padding: 10px;
     margin-bottom: 20px;
@@ -69,7 +69,7 @@ body {
 #Xturn,#Yturn
 {
     float: left;
-    width:230px;
+    width:150px;
     padding:15px;
     text-align: center;
     background-color:#56baed;
@@ -81,7 +81,7 @@ body {
 #Yturn
 {
     float: left;
-    width:230px;
+    width:150px;
     padding:15px;
     text-align: center;
     background-color: #fff;
@@ -91,21 +91,21 @@ body {
 }
 #Xturn:hover
 {
-    transform: scale(1.1);
+    transform: scale(1.0);
 }
 
 
 #Yturn:hover
 {
-    transform: scale(1.1);
+    transform: scale(1.0);
 }
 
 #playbox
 {
-    width:480px;
+    width:400px;
     padding-top:10px;
     padding-bottom:20px;
-    padding-left:30px;
+    padding-left:10px;
     padding-right: 30px;
     height:280px;
 }
@@ -120,14 +120,14 @@ body {
 .box
 {
     float: left;
-    width:120px;
-    height:70px;
+    width:80px;
+    height:60px;
     margin: 10px;;
     border: 3px solid aqua;
     border-radius: 10px;
     background-color: #fff;
     text-align: center;
-    font-size: 45px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center
@@ -135,7 +135,7 @@ body {
 }
 .box:hover
 {
-    transform:scale(1.2) ;
+    transform:scale(1.0) ;
 }
 
 #result
@@ -143,12 +143,9 @@ body {
     position: absolute;
     top:77%;
     left:30%;
-    height: 140px;
+    height:120px;
     width:540px;
-    padding:5px;
-    background-color: #fff;
-    border: 3px solid green;
-    box-shadow: aqua 4px 3px 3px 2px;
+    padding:10px;
     border-radius: 10px;
     display: none;
 
@@ -167,6 +164,7 @@ body {
     align-items: center;
     font-size: 15px;
     margin-left: 200px;
+    margin-top: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     border: 2px solid black;
@@ -176,7 +174,7 @@ body {
 
 #playerswon
 {
-    height:80px;
+    
     padding: 10px;
 }
 #playerswon img
@@ -192,73 +190,47 @@ body {
 #show
 {
     font-family: 'customfont';
-    font-size: 30px;
-    color:green;
-    animation: shake  0.5s infinite;
-}
-
-@keyframes shake {
-    0% {
-      transform: translate(1px, -2px) rotate(-1deg);
-    }
-    10% {
-      transform: translate(-1px, 2px) rotate(-1deg);
-    }
-    20% {
-      transform: translate(1px, 2px) rotate(0deg);
-    }
-    30% {
-      transform: translate(3px, 2px) rotate(0deg);
-    }
-    40% {
-      transform: translate(1px, -1px) rotate(1deg);
-    }
-    50% {
-      transform: translate(-1px, -2px) rotate(-1deg);
-    }
-    60% {
-      transform: translate(-3px, 1px) rotate(0deg);
-    }
-    70% {
-      transform: translate(3px, 1px) rotate(-1deg);
-    }
-    80% {
-      transform: translate(-1px, -1px) rotate(1deg);
-    }
-    90% {
-      transform: translate(-3px, 0px) rotate(1deg);
-    }
-    100% {
-      transform: translate(1px, 1px) rotate(0deg);
-    }
-}
-
-
-
-#marq
-{
-    position:absolute;
-    top:25%;
-    left:5%;
-  
-    width:300px;
-    height:300px;
-    color: aqua;
-    padding: 10px;
-    border-radius: 7px;
-    border: 1px solid white;
-    box-shadow: #56baed 10px 10px 10px 4px ;
-    font-size: 30px;
-}
-
-#marq p
-{
-    margin-bottom:20px;
-    margin-top:10px;
-    font-size: 25px;
+    font-size: 20px;
+    color:aqua;
+    text-align: center;
     
+}
+#celeb1
+{
+  position: absolute;
+  top:75%;
+  left:35%;
+  height:80px;
+  width:100px;
+  display: none;
+}
+
+#celeb2
+{
+  position: absolute;
+  top:75%;
+  left:45%;
+  height:80px;
+  width:100px;
+  display: none;
 
 }
+
+#celeb3
+{
+  position: absolute;
+  top:75%;
+  left:55%;
+  height:80px;
+  width:100px;
+  display: none;
+
+}
+
+
+
+
+
 
 
 

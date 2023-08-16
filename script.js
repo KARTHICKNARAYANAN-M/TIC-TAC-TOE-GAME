@@ -74,19 +74,24 @@ function boxClick(id)
           {
               var t=document.getElementById(trans[i]);
               t.style.backgroundColor="green";
-              t.style.transform="scale(1.2)";
+              t.style.transform="scale(1.1)";
           }
             
            k=1;
+           let a=document.getElementById("celeb1");
+           a.style.display="inline-block";
+           let b=document.getElementById("celeb2");
+           b.style.display="inline-block";
+           let d=document.getElementById("celeb3");
+           d.style.display="inline-block";
             
             res.style.display="inline-block";
+           
             
             show.innerHTML=
             `
-              CONGRATULATIONS! ${currentplayer}  WON THE GAME 
-              <img src="./Images&Audio/download.png">
-              <img src="./Images&Audio/download.png">
-            
+              CONGRATULATIONS! Player ${currentplayer}  WON THE GAME 
+              
             `
             
 
@@ -101,7 +106,6 @@ function boxClick(id)
             show.innerHTML=
             `
                OH  ! MATCH HAS DRAWN
-              <img src="./Images&Audio/handshake.png">
             
             `
         }
@@ -164,6 +168,12 @@ function newgame()
     xturn.style.color="#FFF";
     yturn.style.backgroundColor="#FFF";
     yturn.style.color="#56baed";
+    let a=document.getElementById("celeb1");
+    a.style.display="none";
+    let b=document.getElementById("celeb2");
+    b.style.display="none";
+    let d=document.getElementById("celeb3");
+    d.style.display="none";
 
 }
 

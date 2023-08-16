@@ -9,10 +9,10 @@ const xtext="X";
 let currentplayer=xtext;
 let spaces=Array(9).fill(null);
 var c=0,k=0;
-const audio=new Audio("./Images&Audio/touchaudio.mpeg");
-const audio1=new Audio("./Images&Audio/winning.mp3");
-const audio2=new Audio("./Images&Audio/drawn audio.wav");
-const audio3=new Audio("./Images&Audio/buzzer.mp3");
+const audio=new Audio("./blob/main/Images&Audio/touchaudio.mpeg");
+const audio1=new Audio("./blob/main/Images&Audio/winning.mp3");
+const audio2=new Audio("./blob/main/Images&Audio/drawn audio.wav");
+const audio3=new Audio("./blob/main/Images&Audio/buzzer.mp3");
 
 function boxClick(id)
 {
@@ -91,7 +91,7 @@ function boxClick(id)
             show.innerHTML=
             `
               CONGRATULATIONS! Player ${currentplayer}  WON THE GAME 
-              
+            
             `
             
 
@@ -106,7 +106,7 @@ function boxClick(id)
             show.innerHTML=
             `
                OH  ! MATCH HAS DRAWN
-            
+
             `
         }
      
